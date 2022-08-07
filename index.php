@@ -77,7 +77,7 @@ fclose($fp);
         #collection li p,
         form,
         .reset-button,
-        .org p,
+        .collection p,
         marquee {
             font-family: "Papyrus";
             transform: scale(1.25, 0.5);
@@ -87,7 +87,7 @@ fclose($fp);
         #collection li p b,
         h1,
         h2,
-        .org h2 {
+        .collection h2 {
             font-family: "SignPainter";
             font-weight: 900;
             font-stretch: condensed;
