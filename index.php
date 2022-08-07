@@ -316,13 +316,13 @@ fclose($fp);
             ここをクリックすると、私が所有するベストなもの一覧が表示されます。
         </marquee>
         <nav id="nav">
-            <h1>the best items</h1>
+            <h1>abi</h1>
             <span id="presents">
                 <img src="https://creative-community.space/org/qr.png" width="50rem">
             </span>
             <form>
                 <ol class="search-box">
-                    <li>絞り込み</li>
+                    <li>the best items</li>
                     <li>
                         <input type="radio" name="org" value="tops" id="tops">
                         <label for="tops" class="label">tops</label>
