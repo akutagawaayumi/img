@@ -109,13 +109,13 @@ fclose($fp);
             display: block;
         }
 
-        #bought:checked~label,
-        #gift:checked~label,
-        #free:checked~label,
-        #made:checked~label,
-        #collaborations:checked~label,
-        #other:checked~label,
-        #sale:checked~label {
+        #tops:checked~label,
+        #tee:checked~label,
+        #pants:checked~label,
+        #skirt:checked~label,
+        #dress:checked~label,
+        #accessories:checked~label,
+        #others:checked~label {
             text-decoration: double underline;
         }
         
@@ -323,32 +323,32 @@ fclose($fp);
                 <ol class="search-box">
                     <li>絞り込み</li>
                     <li>
-                        <input type="radio" name="org" value="bought" id="bought">
-                        <label for="bought" class="label">bought</label>
+                        <input type="radio" name="org" value="tops" id="tops">
+                        <label for="tops" class="label">tops</label>
                     </li>
                     <li>
-                        <input type="radio" name="org" value="gift" id="gift">
-                        <label for="gift" class="label">gift</label>
+                        <input type="radio" name="org" value="tee" id="tee">
+                        <label for="tee" class="label">tee</label>
                     </li>
                     <li>
-                        <input type="radio" name="org" value="free" id="free">
-                        <label for="free" class="label">free or found</label>
+                        <input type="radio" name="org" value="pants" id="pants">
+                        <label for="pants" class="label">pants</label>
                     </li>
                     <li>
-                        <input type="radio" name="org" value="made" id="made">
-                        <label for="made" class="label">made</label>
+                        <input type="radio" name="org" value="skirt" id="skirt">
+                        <label for="skirt" class="label">skirt</label>
                     </li>
                     <li>
-                        <input type="radio" name="org" value="collaborations" id="collaborations">
-                        <label for="collaborations" class="label">collaborations</label>
+                        <input type="radio" name="org" value="dress" id="dress">
+                        <label for="dress" class="label">dress</label>
                     </li>
                     <li>
-                        <input type="radio" name="org" value="other" id="other">
-                        <label for="other" class="label">other</label>
+                        <input type="radio" name="org" value="accessories" id="accessories">
+                        <label for="accessories" class="label">accessories</label>
                     </li>
                     <li>
-                        <input type="radio" name="org" value="sale" id="sale">
-                        <label for="sale" class="label">$$$ FOR SALE $$$</label>
+                        <input type="radio" name="org" value="sale" id="others">
+                        <label for="others" class="label">others</label>
                     </li>
                     <li class="reset">
                         <input type="reset" name="reset" value="View All" class="reset-button label" onclick="greeting()">
