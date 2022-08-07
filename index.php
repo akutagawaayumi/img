@@ -62,16 +62,16 @@ fclose($fp);
     <link rel="stylesheet" href="cover.css" />
     <style>
         :root {
-            --text-color: #8FBC8B;
-            --hover-color: #FFFF00;
+            --text-color: #7B68EE;
+            --hover-color: #00FF00;
             --border-style: 1px dashed #00FF00;
             --bg-color: #FAF0E6;
             --list-bg: #FFE4E1;
             --list-text: #000000;
-            --org-text: #8FBC8B;
+            --org-text: #7B68EE;
             --org-bg: #00FF00;
-            --org-border: solid 1px #8FBC8B;
-            --update-text: #8FBC8B;
+            --org-border: solid 1px #7B68EE;
+            --update-text: #7B68EE;
         }
         
         #server p,
@@ -80,8 +80,8 @@ fclose($fp);
         .reset-button,
         .collection p,
         marquee {
-            font-family: "Papyrus";
-            transform: scale(1.25, 0.5);
+            font-family: "Papyrus", monospace;
+            transform: scale(1, 1);
         }
         
         #greeting #text,
@@ -89,8 +89,8 @@ fclose($fp);
         h1,
         h2,
         .collection h2 {
-            font-family: "SignPainter";
-            font-weight: 900;
+            font-family: "Bradley Hand", "MS Serif", serif;
+            font-weight: 500;
             font-stretch: condensed;
             font-variant: common-ligatures tabular-nums;
             transform: scale(1, 1);
@@ -130,8 +130,8 @@ fclose($fp);
         
         .change .mousedragscrollable::-webkit-scrollbar-thumb,
         .change .mousedragscrollable li::-webkit-scrollbar-thumb {
-            background: #fff;
-            border: solid 2px red;
+            background: #FAF0E6;
+            border: solid 4px #00FF00;
         }
         
         .change .mousedragscrollable::-webkit-scrollbar-track,
