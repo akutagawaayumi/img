@@ -24,7 +24,7 @@ $(document).ready(function(event) {
 
     volume = new Tone.Volume(-10);
     synth = new Tone.PolySynth(10, Tone.Synth).chain(volume, Tone.Master);
-    notes = Tone.Frequency("E5").harmonize([3, 2, 5, 6, 7, 11, 17, 13, 12, 15, 16, 17, 21, 27, 23,]);
+    notes = Tone.Frequency("E5").harmonize([13, 12, 15, 16, 17, 21, 27, 23,]);
 });
 
 $("#marquee").click(function(e) {
