@@ -61,16 +61,16 @@ fclose($fp);
     <link rel="stylesheet" href="cover.css" />
     <style>
         :root {
-            --text-color: #8FBC8B;
+            --text-color: #7B68EE;
             --hover-color: #FFFF00;
             --border-style: 1px dashed #00FF00;
             --bg-color: #FAF0E6;
             --list-bg: #FFE4E1;
             --list-text: #000000;
-            --org-text: #8FBC8B;
+            --org-text: #7B68EE;
             --org-bg: #00FF00;
-            --org-border: solid 1px #8FBC8B;
-            --update-text: #8FBC8B;
+            --org-border: solid 1px #7B68EE;
+            --update-text: #7B68EE;
         }
         
         #server p,
@@ -79,7 +79,7 @@ fclose($fp);
         .reset-button,
         .collection p,
         marquee {
-            font-family: "Papyrus";
+            font-family: "Papyrus", monospace;
             transform: scale(1, 2);
         }
         
@@ -88,7 +88,7 @@ fclose($fp);
         h1,
         h2,
         .collection h2 {
-            font-family: "Bradley Hand";
+            font-family: "Bradley Hand", "MS Serif", serif;
             font-weight: 500;
             font-stretch: condensed;
             font-variant: common-ligatures tabular-nums;
