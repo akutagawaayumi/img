@@ -80,7 +80,7 @@ fclose($fp);
         .reset-button,
         .collection p,
         marquee {
-            font-family: "Papyrus", MS Serif;
+            font-family: "Papyrus", MS Serif; serif;
             transform: scale(1, 1);
         }
         
@@ -91,7 +91,7 @@ fclose($fp);
         .collection h2 {
             font-family: "Bradley Hand", "MS Serif", serif;
             font-weight: 500;
-            font-stretch: condensed;
+            font-stretch: ;
             font-variant: common-ligatures tabular-nums;
             transform: scale(1, 1);
         }
