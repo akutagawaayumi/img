@@ -50,10 +50,10 @@ $(".label").click(function(e) {
 
 $(".list_item img").hover(function() {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "20n");
+    synth.triggerAttackRelease(notes[randNote], "1000n");
 });
 
 $(".list_toggle").hover(function() {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "20n");
+    synth.triggerAttackRelease(notes[randNote], "1000n");
 });
