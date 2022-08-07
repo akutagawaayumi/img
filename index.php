@@ -347,7 +347,7 @@ fclose($fp);
                         <label for="accessories" class="label">accessories</label>
                     </li>
                     <li>
-                        <input type="radio" name="org" value="sale" id="others">
+                        <input type="radio" name="org" value="others" id="others">
                         <label for="others" class="label">others</label>
                     </li>
                     <li class="reset">
