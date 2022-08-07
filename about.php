@@ -119,8 +119,8 @@ fclose($fp);
         <?php endif; ?>
         <br/>
         <p>Links
-            <a href="https://creative-community.space/org/" target="_blank">ORG</a>
-            <a href="https://github.com/the-things-i-we-own" target="_blank">GitHub</a>
+            <a href="https://www.instagram.com/abi_the_best_items/" target="_blank">Instagram</a>
+            <a href="https://github.com/akutagawaayumi" target="_blank">GitHub</a>
         </p>
     </ol>
 
