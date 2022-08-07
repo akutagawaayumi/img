@@ -37,7 +37,7 @@ img.csvにこのサイズを記述してカバービジュアルの大きさを�
 ## test/index.php 
 testフォルダは各リストのテンプレートなので、リストを追加したいときはこのフォルダを複製して追加します。
 index.phpの、右端のゴミ箱の隣のアイコンを押してコピーします。<br>
-add file → create new fileを押して、edit new fileにコピーしたものを貼り付け<br>
+add file → create new fileを押して、edit new fileにコピーしたものを貼り付け、／を入れます。<br>
 コピーしたらその上のthebestitems/Name your fileにフォルダ（リスト）の名前を記入、その次にindex.phpと記入<br>
 そうするとフォルダ（リスト）の名前のフォルダができます。
 リストのタイトルは81列に記述します。
