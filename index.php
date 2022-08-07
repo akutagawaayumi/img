@@ -318,7 +318,7 @@ fclose($fp);
             ここをクリックすると、私が所有するベストなもの一覧が表示されます。
         </marquee>
         <nav id="nav">
-            <h1>abi</h1>
+            <h1>abi the best items</h1>
             <span id="presents">
                 <img src="https://creative-community.space/org/qr.png" width="50rem">
             </span>
