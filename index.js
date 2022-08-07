@@ -30,12 +30,12 @@ $(document).ready(function(event) {
 
 $("#marquee").click(function(e) {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "2");
+    synth.triggerAttackRelease(notes[randNote], "10");
 });
 
 $("._more").click(function(e) {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "1");
+    synth.triggerAttackRelease(notes[randNote], "5");
 });
 
 $("#greeting").click(function(e) {
@@ -50,10 +50,10 @@ $(".label").click(function(e) {
 
 $(".list_item img").hover(function() {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "4n");
+    synth.triggerAttackRelease(notes[randNote], "20n");
 });
 
 $(".list_toggle").hover(function() {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "8n");
+    synth.triggerAttackRelease(notes[randNote], "10n");
 });
