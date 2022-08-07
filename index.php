@@ -398,7 +398,6 @@ fclose($fp);
         <ul class="mousedragscrollable">
             <li id="about" class="collection"></li>
             <li id="pre" class="collection"></li>
-            <li id="test" class="collection"></li>
             <li id="img" class="collection"></li>
         </ul>
     </main>
@@ -440,7 +439,6 @@ fclose($fp);
         $(function() {
             $("#about").load("about.php");
             $("#pre").load("pre/index.php");
-            $("#test").load("test/index.php");
             $("#img").load("img.php");
         })
     </script>
