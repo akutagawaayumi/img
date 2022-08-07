@@ -30,27 +30,27 @@ $(document).ready(function(event) {
 
 $("#marquee").click(function(e) {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "10");
+    synth.triggerAttackRelease(notes[randNote], "10n");
 });
 
 $("._more").click(function(e) {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "5");
+    synth.triggerAttackRelease(notes[randNote], "1");
 });
 
 $("#greeting").click(function(e) {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "1n");
+    synth.triggerAttackRelease(notes[randNote], "10n");
 });
 
 $(".label").click(function(e) {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "2n");
+    synth.triggerAttackRelease(notes[randNote], "20n");
 });
 
 $(".list_item img").hover(function() {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "20n");
+    synth.triggerAttackRelease(notes[randNote], "1n");
 });
 
 $(".list_toggle").hover(function() {
