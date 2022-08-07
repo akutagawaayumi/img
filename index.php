@@ -77,7 +77,7 @@ fclose($fp);
         #collection li p,
         form,
         .reset-button,
-        .collection p,
+        .collection,
         marquee {
             font-family: "Papyrus";
             transform: scale(1.25, 0.5);
