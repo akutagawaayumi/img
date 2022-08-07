@@ -43,6 +43,8 @@ https://www.cssfontstack.com/
 
 https://mimi.moe.in/nmp/fonts/allfonts
 
+https://saruwakakun.com/html-css/basic/font-family-how-to
+
 https://fonts.google.com/
 
 
