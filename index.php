@@ -78,21 +78,19 @@ fclose($fp);
         form,
         .reset-button,
         marquee {
-            font-family: "Courier New", Courier, monospace;
-            transform: scale(1, 1.25);
+            font-family: "Papyrus";
+            transform: scale(1.25, 0.5);
         }
         
         #greeting #text,
         #collection li p b,
         h1,
         h2 {
-            font-family: "Arial Narrow", Arial, sans-serif;
-            font-weight: 500;
+            font-family: "SignPainter";
+            font-weight: 900;
             font-stretch: condensed;
             font-variant: common-ligatures tabular-nums;
-            transform: scale(1, 1.1);
-            letter-spacing: -0.1rem;
-            word-spacing: -.1ch;
+            transform: scale(1, 1);
         }
         
         #about {
