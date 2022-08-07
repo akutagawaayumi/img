@@ -27,17 +27,17 @@ fclose($fp);
 <html lang="ja">
 
 <head>
-    <title>the best items</title>
+    <title>abi the best items</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <meta name="author" content="creative-community.space">
-    <meta name="description" content="___">
+    <meta name="author" content="ayumi akutagawa">
+    <meta name="description" content="こんにちは。このページは、私のベストな持ち物をリストアップしたページです。">
 
-    <meta property="og:title" content="___" />
-    <meta property="og:description" content="___" />
+    <meta property="og:title" content="abi the best items" />
+    <meta property="og:description" content="こんにちは。このページは、私のベストな持ち物をリストアップしたページです。" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="___" />
+    <meta property="og:url" content="https://creative-community.space/org/thebestitems/" />
     <meta property="og:site_name" content="creative-community.space" />
     <meta property="og:image" content="___" />
     <meta property="og:locale" content="ja_JP" />
@@ -61,16 +61,16 @@ fclose($fp);
     <link rel="stylesheet" href="cover.css" />
     <style>
         :root {
-            --text-color: red;
-            --hover-color: blue;
-            --border-style: 1px dashed green;
-            --bg-color: yellow;
-            --list-bg: transparent;
-            --list-text: green;
-            --org-text: blue;
-            --org-bg: green;
-            --org-border: solid 1px blue;
-            --update-text: #fff;
+            --text-color: #8FBC8B;
+            --hover-color: #FFFF00;
+            --border-style: 1px dashed #00FF00;
+            --bg-color: #FAF0E6;
+            --list-bg: #FFE4E1;
+            --list-text: #000000;
+            --org-text: #8FBC8B;
+            --org-bg: #00FF00;
+            --org-border: solid 1px #8FBC8B;
+            --update-text: #8FBC8B;
         }
         
         #server p,
