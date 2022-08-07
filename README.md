@@ -43,7 +43,7 @@ https://www.cssfontstack.com/
 
 https://mimi.moe.in/nmp/fonts/allfonts
 
-https://saruwakakun.com/html-css/basic/font-family-how-to
+https://book.studio947.net/article/1634/
 
 https://fonts.google.com/
 
