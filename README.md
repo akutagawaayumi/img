@@ -2,21 +2,21 @@
 **https://creative-community.space/org/**
 
 ## This Page
-https://creative-community.space/org/template/
+https://creative-community.space/org/thebestitems/
 
 
 ## about.php
-ウェブページの説明文／絞り込みカテゴリーについてを記述するPHPファイル
+このページは私のベストな持ち物をリストアップするページです。
 ## about.csv
 絞り込みカテゴリーについてを記述するCSVファイル
 ## img.csv
 カバービジュアル／写真付きリストに表示する内容を記述するCSVファイル
 ## img.php
-所有するものを画像付きで掲載するリストページのPHPファイル
+一番お気に入りのもの
 ## cover.css
 カバービジュアルをスタイリングするCSSファイル
 ## test/index.php 
-所有するものリスト用CSVファイルを出力するPHPファイル（必要なリスト用のファイルを複製）
+着るもの / 身支度に使うもの / 読むもの / 聞くもの / 見るもの / 家で使うもの / 飾るもの / その他
 ## __/list.csv
 所有するものリスト用CSVファイル
 ## index.js
