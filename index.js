@@ -1,7 +1,7 @@
 var Index = [
     "このページは、私のベストな持ち物を記録するホームページです。<br/>",
     "カバービジュアルには、私の特にお気に入りの私物を掲載します。",
-    "ごゆっくり御覧ください",
+    "ごゆっくりご覧ください",
     "写真付きリストには、お気に入りの私物を紹介文付きで掲載します。<br/>",
     "abi the best items"
 ]
@@ -25,7 +25,7 @@ $(document).ready(function(event) {
 
     volume = new Tone.Volume(-10);
     synth = new Tone.PolySynth(10, Tone.Synth).chain(volume, Tone.Master);
-    notes = Tone.Frequency("B3").harmonize([3, 2, 5, 6, 7, 10, 11, 13,]);
+    notes = Tone.Frequency("D3").harmonize([3, 2, 5, 6, 7, 10, 11, 13,]);
 });
 
 $("#marquee").click(function(e) {
