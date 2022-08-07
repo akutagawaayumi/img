@@ -78,7 +78,7 @@ fclose($fp);
 
 <body>
     <ol class="org">
-        <h2>リスト</h2>
+        <h2>テスト</h2>
         <p class="update">
         Last Modified : 
             <?php
