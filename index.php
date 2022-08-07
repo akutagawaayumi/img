@@ -57,7 +57,7 @@ fclose($fp);
     <script src="index.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://creative-community.space/org/index.css" />
     <link rel="stylesheet" href="https://creative-community.space/org/searchBox.css" />
     <link rel="stylesheet" href="index.css" />
@@ -91,7 +91,7 @@ fclose($fp);
         h1,
         h2,
         .collection h2 {
-            font-family: 'Yuji Mai', serif;
+            font-family: 'Zen Old Mincho', serif;
             font-weight: 500;
             font-stretch: ;
             font-variant: common-ligatures tabular-nums;
