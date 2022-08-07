@@ -40,7 +40,7 @@ $("._more").click(function(e) {
 
 $("#greeting").click(function(e) {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "10n");
+    synth.triggerAttackRelease(notes[randNote], "20n");
 });
 
 $(".label").click(function(e) {
@@ -50,10 +50,10 @@ $(".label").click(function(e) {
 
 $(".list_item img").hover(function() {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "10n");
+    synth.triggerAttackRelease(notes[randNote], "20n");
 });
 
 $(".list_toggle").hover(function() {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "10n");
+    synth.triggerAttackRelease(notes[randNote], "20n");
 });
