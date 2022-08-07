@@ -57,7 +57,7 @@ fclose($fp);
     <script src="index.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://creative-community.space/org/index.css" />
     <link rel="stylesheet" href="https://creative-community.space/org/searchBox.css" />
     <link rel="stylesheet" href="index.css" />
@@ -91,8 +91,8 @@ fclose($fp);
         h1,
         h2,
         .collection h2 {
-            font-family: 'Yuji Mai', serif;
-            font-weight: 500;
+            font-family: 'Shippori Mincho', serif;
+            font-weight: 300;
             font-stretch: ;
             font-variant: common-ligatures tabular-nums;
             transform: scale(1, 1);
@@ -318,7 +318,7 @@ fclose($fp);
             ここをクリックすると、私が所有するベストなもの一覧が表示されます。
         </marquee>
         <nav id="nav">
-            <h1>abi</h1>
+            <h1>abi the best items</h1>
             <span id="presents">
                 <img src="https://creative-community.space/org/qr.png" width="50rem">
             </span>
