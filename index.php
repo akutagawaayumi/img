@@ -62,7 +62,7 @@ fclose($fp);
     <style>
         :root {
             --text-color: #7B68EE;
-            --hover-color: #FFFF00;
+            --hover-color: #00FF00;
             --border-style: 1px dashed #00FF00;
             --bg-color: #FAF0E6;
             --list-bg: #FFE4E1;
@@ -80,7 +80,7 @@ fclose($fp);
         .collection p,
         marquee {
             font-family: "Papyrus", monospace;
-            transform: scale(1, 2);
+            transform: scale(1, 1);
         }
         
         #greeting #text,
