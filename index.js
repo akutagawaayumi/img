@@ -23,9 +23,9 @@ $(document).ready(function(event) {
         Tone.context.resume();
     });
 
-    volume = new Tone.Volume(-10);
+    volume = new Tone.Volume(-1);
     synth = new Tone.PolySynth(10, Tone.Synth).chain(volume, Tone.Master);
-    notes = Tone.Frequency("A1").harmonize([2, 4, 8, 10, 14, 15, 18]);
+    notes = Tone.Frequency("G7").harmonize([1, 2, 5, 6, 7, 12, ]);
 });
 
 $("#marquee").click(function(e) {
