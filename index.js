@@ -30,17 +30,17 @@ $(document).ready(function(event) {
 
 $("#marquee").click(function(e) {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "20n");
+    synth.triggerAttackRelease(notes[randNote], "200n");
 });
 
 $("._more").click(function(e) {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "100n");
+    synth.triggerAttackRelease(notes[randNote], "1000n");
 });
 
 $("#greeting").click(function(e) {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "20n");
+    synth.triggerAttackRelease(notes[randNote], "200n");
 });
 
 $(".label").click(function(e) {
