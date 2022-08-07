@@ -35,7 +35,7 @@ about,pre,imgはページの説明、リスト、写真付きリストを埋め�
 cover.cssにはカバービジュアルの表示サイズが管理してあります。
 img.csvにこのサイズを記述してカバービジュアルの大きさを編集します。
 ## test/index.php 
-testフォルダは各リストのテンプレートです。
+testフォルダは各リストのテンプレートなので、リストを追加したいときはこのフォルダを複製して追加します。
 index.phpの、右端のゴミ箱の隣のアイコンを押してコピーします。<br>
 add file → create new fileを押して、edit new fileにコピーしたものを貼り付け<br>
 コピーしたらその上のthebestitems/Name your fileにフォルダ（リスト）の名前を記入、その次にindex.phpと記入<br>
