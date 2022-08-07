@@ -55,7 +55,9 @@ fclose($fp);
     <script src="https://creative-community.space/coding/js/mousedragscrollable/scrollable.js"></script>
     <script src="https://creative-community.space/org/searchBox.js"></script>
     <script src="index.js"></script>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://creative-community.space/org/index.css" />
     <link rel="stylesheet" href="https://creative-community.space/org/searchBox.css" />
     <link rel="stylesheet" href="index.css" />
@@ -89,7 +91,7 @@ fclose($fp);
         h1,
         h2,
         .collection h2 {
-            font-family: "Bradley Hand", "MS Serif", serif;
+            font-family: 'M PLUS Rounded 1c', sans-serif;
             font-weight: 500;
             font-stretch: ;
             font-variant: common-ligatures tabular-nums;
