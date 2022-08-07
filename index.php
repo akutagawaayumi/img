@@ -80,7 +80,7 @@ fclose($fp);
         .reset-button,
         .collection p,
         marquee {
-            font-family: "Papyrus", monospace;
+            font-family: "Papyrus", MS Serif;
             transform: scale(1, 1);
         }
         
