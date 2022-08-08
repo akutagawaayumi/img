@@ -71,7 +71,7 @@ fclose($fp);
             --list-bg: #FFE4E1;
             --list-text: #000000;
             --org-text: #7B68EE;
-            --org-bg: #00FF00;
+            --org-bg: ;
             --org-border: solid 1px #7B68EE;
             --update-text: #7B68EE;
         }
