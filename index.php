@@ -68,10 +68,10 @@ fclose($fp);
             --hover-color: #00FF00;
             --border-style: 1px dashed #00FF00;
             --bg-color: #FAF0E6;
-            --list-bg: #FFE4E1;
+            --list-bg: #FAF0E6;
             --list-text: #000000;
             --org-text: #7B68EE;
-            --org-bg: #FAF0E6;
+            --org-bg: #00FF00;
             --org-border: solid 1px #7B68EE;
             --update-text: #7B68EE;
         }
