@@ -147,6 +147,7 @@ fclose($fp);
             background-size: auto 100%;
             background-repeat: no-repeat;
             overflow: hidden;
+            max-width: 100vh;
         }
         
         #images {
