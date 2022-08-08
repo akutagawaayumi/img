@@ -71,7 +71,7 @@ fclose($fp);
             --list-bg: #FFE4E1;
             --list-text: #000000;
             --org-text: #7B68EE;
-            --org-bg: ;
+            --org-bg: #FAF0E6;
             --org-border: solid 1px #7B68EE;
             --update-text: #7B68EE;
         }
@@ -133,7 +133,7 @@ fclose($fp);
         .change .mousedragscrollable::-webkit-scrollbar-thumb,
         .change .mousedragscrollable li::-webkit-scrollbar-thumb {
             background: #FAF0E6;
-            border: solid 4px #00FF00;
+            border: solid dashed　4px #00FF00;
         }
         
         .change .mousedragscrollable::-webkit-scrollbar-track,
