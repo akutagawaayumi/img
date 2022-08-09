@@ -132,8 +132,8 @@ fclose($fp);
         
         .change .mousedragscrollable::-webkit-scrollbar-thumb,
         .change .mousedragscrollable li::-webkit-scrollbar-thumb {
-            background: #7B68EE;
-            border: ;
+            background: #ffffff;
+            border: solid 4px #7B68EE;
         }
         
         .change .mousedragscrollable::-webkit-scrollbar-track,
