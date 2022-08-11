@@ -91,7 +91,7 @@ fclose($fp);
         h1,
         h2,
         .collection h2 {
-            font-family: "Skia-Regular_Extended, Skia; font-stretch: expanded", MS Serif; serif;
+            font-family: "Skia-Regular", MS Serif; serif;
             font-weight: 300;
             font-stretch: ;
             font-variant: common-ligatures tabular-nums;
