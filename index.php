@@ -112,13 +112,7 @@ fclose($fp);
             display: block;
         }
 
-        #tops:checked~label,
-        #tee:checked~label,
-        #pants:checked~label,
-        #skirt:checked~label,
-        #dress:checked~label,
-        #accessories:checked~label,
-        #others:checked~label {
+        input:checked~label {
             text-decoration: double underline;
         }
         
