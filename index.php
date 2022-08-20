@@ -308,7 +308,7 @@ fclose($fp);
 <body id="open">
 
     <header id="header">
-        <a class="_more" onclick="more()">こんにちは</a>
+        <a class="_more" onclick="more()">ようこそ</a>
         <marquee id="marquee">
             ここをクリックすると、私が所有するベストなもの一覧が表示されます。
         </marquee>
