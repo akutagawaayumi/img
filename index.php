@@ -70,10 +70,10 @@ fclose($fp);
             --bg-color: #FAF0E6;
             --list-bg: #FAF0E6;
             --list-text: #000000;
-            --org-text: #7B68EE;
-            --org-bg: #00FF00;
-            --org-border: solid 1px #7B68EE;
-            --update-text: #7B68EE;
+            --org-text: #000000;
+            --org-bg: #FFA07A;
+            --org-border: solid 1px #FFA07A;
+            --update-text: #FFA07A;
         }
         
         #server p,
