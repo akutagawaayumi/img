@@ -65,15 +65,15 @@ fclose($fp);
     <style>
         :root {
             --text-color: #000000;
-            --hover-color: #FFA07A;
-            --border-style: 1px dashed #FFA07A;
+            --hover-color: #7B68EE;
+            --border-style: 1px dashed #000000;
             --bg-color: #FAF0E6;
             --list-bg: #FAF0E6;
             --list-text: #000000;
             --org-text: #000000;
-            --org-bg: #FFA07A;
-            --org-border: solid 1px #FFA07A;
-            --update-text: #FFA07A;
+            --org-bg: #7B68EE;
+            --org-border: solid 1px #000000;
+            --update-text: #7B68EE;
         }
         
         #server p,
