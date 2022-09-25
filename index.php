@@ -64,7 +64,7 @@ fclose($fp);
     <link rel="stylesheet" href="cover.css" />
     <style>
         :root {
-            --text-color: #7B68EE;
+            --text-color: #000000;
             --hover-color: #00FF00;
             --border-style: 1px dashed #00FF00;
             --bg-color: #FAF0E6;
