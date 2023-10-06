@@ -9,6 +9,10 @@
     <script src="js/org.js"></script>
     <script>
         itemsJson('index.json')
+
+        window.addEventListener("load", () => {
+            fetchMD('README.md', '#readme')
+        });
     </script>
 
     <!--og:meta-->
@@ -61,6 +65,9 @@
         </nav>
         <button id="back" type="button">×</button>
     </dialog>
+    <footer>
+        <section id="readme"></section>
+    </footer>
 </body>
 
 </html>

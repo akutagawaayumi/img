@@ -97,3 +97,11 @@ function openModal() {
     alert("The <dialog> API is not supported by this browser")
   }
 }
+
+async function fetchMD(url = '', query = '') {
+  fetch(url)
+    .then(response => response.text())
+    .then(text => {
+      document.querySelector(query).innerText = text
+    })
+}
