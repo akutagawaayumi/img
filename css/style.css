@@ -1,0 +1,242 @@
+html {
+    font-size: 16px;
+    height: -webkit-fill-available;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+hr {
+    clear: both;
+    width: 100%;
+    border: none;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    src: url("font/Compact-Text-Regular.otf"),
+        url("font/UI-Display-Regular.otf");
+}
+
+@font-face {
+    font-family: "New York";
+    src: url('font/NewYork.otf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    font-family: -apple-system, 'BlinkMacSystemFont', 'San Francisco', 'Hiragino Kaku Gothic ProN', 'メイリオ', Sans-Serif;
+    display: grid;
+    min-height: -webkit-fill-available;
+}
+
+h2 i {
+    font-family: 'New York', Times, serif;
+}
+
+code {
+    font-family: inherit;
+}
+
+body,
+h1,
+h2,
+footer ul,
+footer ol,
+button {
+    padding: 0;
+    margin: 0;
+}
+
+header,
+footer,
+#info section {
+    padding: 0.5rem;
+    margin: 0;
+}
+
+#info section div {
+    padding: 0;
+    margin: 1rem 0;
+}
+
+footer {
+    padding: 0.5rem;
+    margin: 0.5rem 0 0;
+}
+
+footer li {
+    list-style: none inside;
+    margin: 0.5rem 0;
+}
+
+footer details section {
+    padding: 0;
+    margin: 0.5rem 0 0;
+}
+
+button,
+select,
+footer a {
+    appearance: none;
+    background: transparent;
+    color: #000;
+    font-family: inherit;
+    font-weight: 900;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+select,
+footer a {
+    border: 0.1rem solid;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    outline: none;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+#text,
+footer,
+footer li u,
+footer a {
+    font-size: 90%;
+}
+
+footer h2 i {
+    font-size: 75%;
+}
+
+h1,
+header button {
+    font-size: 100%;
+}
+
+footer b {
+    font-size: 111%;
+}
+
+h2,
+#info section button {
+    font-size: 200%;
+}
+
+#news,
+h3,
+h3 code {
+    font-size: 125%;
+}
+
+footer li {
+    font-size: 150%;
+}
+
+#info nav button,
+#back {
+    font-size: 300%;
+}
+
+footer h2 b {
+    font-weight: 600;
+}
+
+footer h2,
+footer h3 {
+    font-weight: 500;
+}
+
+#info section,
+#back {
+    mix-blend-mode: difference;
+}
+
+#info section h2,
+#info section h3,
+#info section button,
+#back {
+    filter: invert();
+}
+
+#info section button {
+    text-decoration: underline;
+}
+
+header,
+footer {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    place-self: start;
+}
+
+footer {
+    place-self: end;
+    flex-flow: wrap;
+}
+
+footer,
+footer h2,
+footer details {
+    width: 100%;
+}
+
+#info {
+    border-radius: 2rem;
+    background: #fff;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    height: 90%;
+    z-index: 5;
+}
+
+#info section div p {
+    display: inline;
+    background: #fff9;
+}
+
+#info nav,
+#back {
+    position: absolute;
+    bottom: 0.5rem;
+    z-index: 5;
+}
+
+#info nav {
+    left: 0.5rem;
+}
+
+#back {
+    right: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+
+    #info,
+    footer {
+        font-size: 3vw;
+    }
+}

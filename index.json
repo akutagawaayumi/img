@@ -1,0 +1,224 @@
+{
+    "items": [
+        {
+            "id": "020",
+            "name": "ハートの計算機",
+            "text": "<p>vividで購入</p>",
+            "tag": [
+                "others"
+            ],
+            "img": [
+                "img/heart.png"
+            ]
+        },
+        {
+            "id": "019",
+            "name": "Kneippの入浴剤",
+            "text": "<p>「Show me your smile」と「Everything will be fine」</p>",
+            "tag": [
+                "others"
+            ],
+            "img": [
+                "img/kneipp.png"
+            ]
+        },
+        {
+            "id": "018",
+            "name": "アレクサ",
+            "text": "<p>誕生日に来たアレクサ</p>",
+            "tag": [
+                "others"
+            ],
+            "img": [
+                "img/alexa.png"
+            ]
+        },
+        {
+            "id": "017",
+            "name": "ハナエモリのハイソックス",
+            "text": "<p>かわいいワッペンがついている</p>",
+            "tag": [
+                "accessories"
+            ],
+            "img": [
+                "img/IMG_1800.JPG"
+            ]
+        },
+        {
+            "id": "016",
+            "name": "友達うさぎのマグカップ",
+            "text": "<p>ちゃく×3で購入したマグカップ</p>",
+            "tag": [
+                "others"
+            ],
+            "img": [
+                "img/cup.png"
+            ]
+        },
+        {
+            "id": "015",
+            "name": "家の鍵",
+            "text": "<p>もらったキーホルダー・住吉大社のお守り・防府天満宮のお守り・水平器</p>",
+            "tag": [
+                "accessories"
+            ],
+            "img": [
+                "img/IMG_1807.JPG"
+            ]
+        },
+        {
+            "id": "014",
+            "name": "オルゴール",
+            "text": "<p>宇多田ヒカルのAddicted to you</p>",
+            "tag": [
+                "others"
+            ],
+            "img": [
+                "img/okimono.png"
+            ]
+        },
+        {
+            "id": "013",
+            "name": "麦わら帽子",
+            "text": "<p>瓦版やのフリマで購入</p>",
+            "tag": [
+                "accessories"
+            ],
+            "img": [
+                "img/hat.png"
+            ]
+        },
+        {
+            "id": "012",
+            "name": "Kiehl'sのボディオイル",
+            "text": "<p>匂いがとてもいい</p>",
+            "tag": [
+                "others"
+            ],
+            "img": [
+                "img/IMG_1802.JPG"
+            ]
+        },
+        {
+            "id": "011",
+            "name": "ウエストポーチ",
+            "text": "<p>使い勝手のいいウエストポーチ</p>",
+            "tag": [
+                "accessories"
+            ],
+            "img": [
+                "img/IMG_1798.JPG"
+            ]
+        },
+        {
+            "id": "010",
+            "name": "サングラス",
+            "text": "<p>レンズが暗すぎなくてちょうどいい</p>",
+            "tag": [
+                "accessories"
+            ],
+            "img": [
+                "img/IMG_1808.JPG"
+            ]
+        },
+        {
+            "id": "009",
+            "name": "花のレース日傘",
+            "text": "<p>持ち手に花の彫りがある</p>",
+            "tag": [
+                "accessories"
+            ],
+            "img": [
+                "img/higasa.png"
+            ]
+        },
+        {
+            "id": "008",
+            "name": "白のベスト",
+            "text": "<p>いつでも着たい</p>",
+            "tag": [
+                "tops"
+            ],
+            "img": [
+                "img/IMG_1797.JPG"
+            ]
+        },
+        {
+            "id": "007",
+            "name": "Simon and the wind",
+            "text": "<p>Simonが風にのりたい話</p>",
+            "tag": [
+                "others"
+            ],
+            "img": [
+                "img/IMG_1801.JPG"
+            ]
+        },
+        {
+            "id": "006",
+            "name": "きらきらピンクの靴",
+            "text": "<p>vividで購入</p>",
+            "tag": [
+                "accessories"
+            ],
+            "img": [
+                "img/shoes.png"
+            ]
+        },
+        {
+            "id": "005",
+            "name": "sealded air",
+            "text": "<p>いろんな種類の緩衝材</p>",
+            "tag": [
+                "others"
+            ],
+            "img": [
+                "img/sealdedair.png"
+            ]
+        },
+        {
+            "id": "004",
+            "name": "CD・DVD",
+            "text": "<p>持っておきたいCDとDVD</p>",
+            "tag": [
+                "others"
+            ],
+            "img": [
+                "img/cd.png"
+            ]
+        },
+        {
+            "id": "003",
+            "name": "KOOSのトップス",
+            "text": "<p>首と袖が透ける上品な服</p>",
+            "tag": [
+                "tops"
+            ],
+            "img": [
+                "img/IMG_1799.JPG"
+            ]
+        },
+        {
+            "id": "002",
+            "name": "女の子がついたズボン",
+            "text": "<p>vividで購入（700円）</p>",
+            "tag": [
+                "pants"
+            ],
+            "img": [
+                "img/IMG_1793.JPG"
+            ]
+        },
+        {
+            "id": "001",
+            "name": "Wacoalのパジャマ",
+            "text": "<p>理想に近いパジャマ</p>",
+            "tag": [
+                "dress"
+            ],
+            "img": [
+                "img/IMG_1831.JPG"
+            ]
+        }
+    ]
+}

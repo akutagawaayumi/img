@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <script src="js/index.js"></script>
+    <script src="js/org.js"></script>
+    <script>
+        itemsJson('index.json')
+    </script>
+
+    <!--og:meta-->
+    <meta content="website" property="og:type">
+    <title>私のベストな持ち物</title>
+    <meta content="私のベストな持ち物" property="og:title">
+    <meta content="このページに、私のベストな持ち物を記録します。" name="description">
+    <meta content="このページに、私のベストな持ち物を記録します。" name="og:description">
+
+    <!--for Twitter-->
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="https://akutagawaayumi.github.io/items/" property="og:url">
+    <meta content="https://akutagawaayumi.github.io/icon/card.png" property="og:image">
+    <meta content="https://akutagawaayumi.github.io/icon/card.png" name="twitter:image:src">
+
+    <!--Icons-->
+    <link rel="icon" href="https://akutagawaayumi.github.io/icon/favicon.png">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/items.css">
+</head>
+
+<body>
+    <header>
+        <h1 onclick="location.replace('/');">a‿a</h1>
+        <select name="org" id="org">
+            <option value="all" selected>私のベストな持ち物</option>
+            <option value="tops">tops</option>
+            <option value="tee">tee</option>
+            <option value="pants">pants</option>
+            <option value="skirt">skirt</option>
+            <option value="dress">dress</option>
+            <option value="accessories">accessories</option>
+            <option value="others">others</option>
+        </select>
+        <button type="button" onclick="location.replace('https://the-best-items.com/');">abi</button>
+    </header>
+
+    <article id="items"></article>
+
+    <dialog id="info">
+        <section>
+            <h2><i id="name"></i></h2>
+            <div id="size"></div>
+            <div id="text"></div>
+        </section>
+        <nav>
+            <button id="pre" type="button">←</button>
+            <button id="next" type="button">→</button>
+        </nav>
+        <button id="back" type="button">×</button>
+    </dialog>
+</body>
+
+</html>
